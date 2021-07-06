@@ -104,7 +104,7 @@ artifacts {
 }
 
 // I dont know what
-wrapper {
-    gradleVersion = "6.1.1"
-    distributionType = Wrapper.DistributionType.ALL
-}
+//wrapper {
+//    gradleVersion = "6.1.1"
+//    distributionType = Wrapper.DistributionType.ALL
+//}
