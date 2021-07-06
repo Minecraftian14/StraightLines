@@ -102,7 +102,7 @@ task sourcesJar(type: Jar, dependsOn: classes) {
 
 // Declaring artifacts for jitpack to recognise
 artifacts {
-    archives install
+    archives sourcesJar
 }
 
 // I dont know what
