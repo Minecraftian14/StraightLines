@@ -18,7 +18,7 @@ test {
     useJUnitPlatform()
 }
 
-task sourcesJar(type: Jar, dependsOn: classes) {
+task install(type: Jar, dependsOn: classes) {
 
     // Add in the project name.
     def projectName = "StraightLines"
@@ -100,7 +100,7 @@ task sourcesJar(type: Jar, dependsOn: classes) {
 
 // Declaring artifacts for jitpack to recognise
 artifacts {
-    archives sourcesJar
+    archives install
 }
 
 // I dont know what
