@@ -1,0 +1,8 @@
+com/mcxiv/util/Line.java
+ com.mcxiv.util.Line
+com/mcxiv/util/SlopeConstantLine.java
+ com.mcxiv.util.SlopeConstantLine
+com/mcxiv/util/InvertedSlopeConstantLine.java
+ com.mcxiv.util.InvertedSlopeConstantLine
+com/mcxiv/util/Vector2.java
+ com.mcxiv.util.Vector2
